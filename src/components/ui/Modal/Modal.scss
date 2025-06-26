@@ -1,0 +1,48 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(1, 21, 43, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  .modal-content {
+    background: white;
+    padding: 16px;
+    border-radius: 16px;
+    min-width: 350px;
+    max-width: 600px;
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+    cursor: default;
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      button {
+        padding: 12px 14px;
+        font-size: 12px;
+        border-radius: 8px;
+        color: #01152b;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-family: "Montserrat", sans-serif;
+        &.action-close {
+          background: #ffffff;
+          font-size: 12px;
+          padding: 11px 15px;
+          border: 1px solid #b1b9c3;
+          margin-right: 5px;
+        }
+        &.action-save {
+          background-color: #7071f3;
+          color: white;
+          border: none;
+        }
+      }
+    }
+  }
+}

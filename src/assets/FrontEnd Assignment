@@ -1,0 +1,73 @@
+Razor Labs – Frontend Home Assignment
+🎯 Scope
+This assignment is intended to assess your ability to build a responsive and interactive React
+dashboard that displays and manages diagnostic insights.
+You are expected to:
+● Implement the UI according to the provided design
+● Simulate backend functionality using mock data or local state
+● Deliver a clean, well-structured React project
+
+✅ Task Overview
+1. Diagnostics Table
+● Display a list of diagnostic entries.
+● Diagnostics must be sorted by created_at (newest first) and then by severity, in
+this order:
+critical → alarm → healthy
+● The layout should follow the Zeplin design:
+○ Link: https://app.zeplin.io/project/666ddba946adae00b3b4057e
+○ User: razor-ex@razor-labs.com
+○ Password: RazorEx1337
+
+2. Fusion Trend Graph
+● Show one data point per day based on the most severe diagnostic of that day.
+● On hover, show a tooltip with the fault type (not just severity).
+● You can use any charting library of your choice.
+● You may adjust styling and presentation, but the overall layout and structure should
+match the design.
+
+3. Add New Diagnostic Form
+● Allow the user to input a new diagnostic with:
+○ created_at (date/time)
+○ type: one of bearing, gear, motor
+○ severity: one of healthy, alarm, critical
+● Include basic front-end validation.
+● Upon submission, update the table and graph in real-time.
+
+📋 Guidelines
+🎨 Design & Layout
+● The general layout and UI structure should follow the Zeplin design.
+● Minor variations in spacing, fonts, or responsiveness are acceptable, as long as
+the UI is clear, usable, and close to the original intent.
+● Full mobile responsiveness is not required, but the layout should work well on standard
+desktop screen sizes.
+
+⚙️ Backend Simulation
+● No real backend is needed.
+● Use in-memory data (e.g., useState, local mocks) or mock API tools (json-server,
+MirageJS) to simulate data flow.
+
+🧪 Testing
+● Include at least a few unit or component tests that verify key behavior (e.g., sorting,
+form validation, hover tooltip).
+
+📁 Code Quality
+● Focus on modular, readable, and scalable code.
+● Pay attention to naming, component structure, and separation of concerns.
+
+🧠 Assumptions
+● If any requirement is unclear or missing, please include your assumptions in the
+README.md.
+
+🤖 Use of AI Tools
+● You may use tools like ChatGPT or GitHub Copilot for assistance.
+● However, note that your submission may be reviewed in a follow-up conversation or
+interview — make sure you understand everything you submit.
+
+📤 Submission Requirements
+Please provide:
+1. The full project code (GitHub link or zipped folder), including package.json
+2. A short screen recording (30–60 seconds) demonstrating your dashboard
+3. A README.md file with:
+○ Setup instructions
+○ Any assumptions made
+○ Any extra context you'd like us to know

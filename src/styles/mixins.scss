@@ -1,0 +1,27 @@
+@mixin dropdown-arrow() {
+  position: relative;
+  padding-right: 20px;
+  cursor: pointer;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 6px;
+    height: 1px;
+    background-color: #01152b;
+    transform-origin: center;
+    pointer-events: none;
+    z-index: 9;
+  }
+
+  &::after {
+    transform: rotate(45deg) translateY(3px);
+  }
+
+  &::before {
+    transform: rotate(-45deg) translateY(3px);
+  }
+}

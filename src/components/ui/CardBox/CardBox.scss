@@ -1,0 +1,17 @@
+.card-box {
+  background-color: #e6e8ec;
+  border-radius: 8px;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 6px;
+  cursor: default;
+  .card-box-header {
+    padding: 11px 10px;
+    padding-top: 8px;
+  }
+  .card-box-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 5px;
+  }
+}
